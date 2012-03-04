@@ -6,6 +6,7 @@ package wad.asunnot.service;
 
 import java.util.List;
 import wad.asunnot.domain.Asunto;
+import wad.asunnot.domain.Henkilo;
 
 /**
  *
@@ -14,6 +15,5 @@ import wad.asunnot.domain.Asunto;
 public interface AsuntoService {
     void create(Asunto asunto);
     Asunto getById(Long id);
-    List<Asunto> list();
-    
+    List<Asunto> list();    
 }

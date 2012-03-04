@@ -23,7 +23,7 @@ public class Asunto implements Serializable {
     @Column(name="KAUPUNKI")
     String kaupunki;
     @Column(name="VUOSI")
-    Integer vuosi;
+    String vuosi;
     @Column(name="KUNTO")
     String kunto;
     
@@ -86,11 +86,11 @@ public class Asunto implements Serializable {
         this.postinumero = postinumero;
     }
 
-    public Integer getVuosi() {
+    public String getVuosi() {
         return vuosi;
     }
 
-    public void setVuosi(Integer vuosi) {
+    public void setVuosi(String vuosi) {
         this.vuosi = vuosi;
     }
     

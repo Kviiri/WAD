@@ -15,7 +15,7 @@
     <body>
         <a href="listaus.jsp">Listaukseen</a><br />
         <h1>Lisää ilmoitus</h1>
-        <form:form commandName="lahetailmoitus" action="${pageContext.request.contextPath}/ilmoitus" method="POST">
+        <form:form commandName="FormObject" action="${pageContext.request.contextPath}/ilmoitus" method="POST">
             <h3>Myyjän tiedot</h3>
             Nimi: <form:input path="nimi"/><form:errors path="nimi"/> <br />
             Puhelinnumero: <form:input path="puhelinnumero"/><form:errors path="puhelinnumero"/> <br />
